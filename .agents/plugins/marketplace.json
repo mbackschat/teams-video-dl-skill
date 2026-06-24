@@ -1,0 +1,20 @@
+{
+  "name": "teams-video-dl",
+  "interface": {
+    "displayName": "Teams Video Downloader"
+  },
+  "plugins": [
+    {
+      "name": "teams-video-dl",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

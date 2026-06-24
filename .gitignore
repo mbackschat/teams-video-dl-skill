@@ -1,0 +1,30 @@
+# --- runtime artifacts (NEVER commit: may carry personal data or live secrets) ---
+*.mp4
+*.m4s
+*.srt
+*.vtt
+*.txt
+*.har
+*.raw.json
+*.curl
+out.mpd
+key.bin
+.cache_*/
+tmp/
+
+# --- legacy/working files from manual sessions (may contain real tenant ids/names) ---
+/sp_stream_dl.py
+/sp_transcript_dl.py
+/boxes.py
+/teams-video-dl-handoff.md
+/transcript-findings.md
+
+# --- python ---
+__pycache__/
+*.py[cod]
+.venv/
+.uv-cache/
+.pytest_cache/
+
+# --- os ---
+.DS_Store

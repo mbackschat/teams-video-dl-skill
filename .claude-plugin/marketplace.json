@@ -1,0 +1,15 @@
+{
+  "name": "teams-video-dl",
+  "owner": {
+    "name": "teams-video-dl contributors"
+  },
+  "description": "Download Microsoft Teams / SharePoint / Stream meeting recordings together with their speaker-attributed transcripts.",
+  "plugins": [
+    {
+      "name": "teams-video-dl",
+      "source": "./",
+      "version": "1.0.3",
+      "description": "Guided downloader for Teams/SharePoint/Stream recordings (video + transcript with speaker names)."
+    }
+  ]
+}

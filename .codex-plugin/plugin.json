@@ -1,0 +1,37 @@
+{
+  "name": "teams-video-dl",
+  "version": "1.0.3",
+  "description": "Download Microsoft Teams / SharePoint / Stream meeting recordings with speaker-attributed transcripts.",
+  "author": {
+    "name": "teams-video-dl contributors"
+  },
+  "license": "MIT",
+  "keywords": [
+    "teams",
+    "sharepoint",
+    "stream",
+    "onedrive",
+    "video",
+    "transcript",
+    "subtitles",
+    "download",
+    "dash",
+    "webvtt"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Teams Video Downloader",
+    "shortDescription": "Download Teams and SharePoint recordings with speaker-attributed transcripts.",
+    "longDescription": "Guided local workflow for saving authorized Microsoft Teams, SharePoint, and Stream recordings together with speaker-attributed subtitles and transcript files.",
+    "developerName": "teams-video-dl contributors",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Download this Teams recording with its transcript: <url>"
+    ],
+    "brandColor": "#2563EB"
+  }
+}
